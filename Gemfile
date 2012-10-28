@@ -1,9 +1,11 @@
 source 'http://rubygems.org'
 
+gem 'psych'
+
 gem 'rails', '3.1.1'
 gem 'jquery-rails'
 gem 'devise'
-gem 'doorkeeper', '0.5.0.rc1'
+gem 'doorkeeper', :git => 'git://github.com/applicake/doorkeeper.git'
 gem 'faker'
 
 gem 'coderay', '~> 0.9.8'
